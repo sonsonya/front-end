@@ -56,6 +56,7 @@ const ImgContainer = styled.div`
 `;
 
 const Image = styled.img`
+  margin-left:30px;
   height: 80%;
   border-radius: 10px;
   box-shadow: 5px 10px 8px #888888;

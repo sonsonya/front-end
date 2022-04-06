@@ -7,6 +7,7 @@ import { mobile } from "../responsive";
 const Container = styled.div`
   height: 90px;
   background: linear-gradient(190deg, rgba(1,1,1,0.9084676106770834) 0%, rgba(49,104,121,0.9868989832261029) 100%);
+  box-shadow: 5px 5px 8px #888888;
   ${mobile({ height: "70px" })}
 `;
 
