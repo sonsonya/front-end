@@ -24,7 +24,8 @@ const Wrapper = styled.div`
 
 const Title = styled.h1`
   font-size: 24px;
-  font-weight: 300;
+  font-weight: bold;
+  text-align: center;
 `;
 
 const Form = styled.form`
@@ -37,6 +38,7 @@ const Input = styled.input`
   min-width: 40%;
   margin: 10px 0;
   padding: 10px;
+  border-radius: 15px;
 `;
 
 const Button = styled.button`
@@ -47,10 +49,12 @@ const Button = styled.button`
   color: white;
   cursor: pointer;
   margin-bottom: 10px;
+  border-radius: 15px;
+  margin: 5px auto;
 `;
 
 const Link = styled.a`
-  margin: 5px 0px;
+  margin: 5px auto;
   font-size: 12px;
   text-decoration: underline;
   cursor: pointer;

@@ -24,7 +24,8 @@ const Wrapper = styled.div`
 
 const Title = styled.h1`
   font-size: 24px;
-  font-weight: 300;
+  font-weight: bold;
+  text-align: center;
 `;
 
 const Form = styled.form`
@@ -37,6 +38,7 @@ const Input = styled.input`
   min-width: 40%;
   margin: 20px 10px 0px 0px;
   padding: 10px;
+  border-radius: 15px;
 `;
 
 const Agreement = styled.span`
@@ -51,6 +53,8 @@ const Button = styled.button`
   background-color: teal;
   color: white;
   cursor: pointer;
+  margin: auto;
+  border-radius: 15px;
 `;
 
 const Register = () => {
