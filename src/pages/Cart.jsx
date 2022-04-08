@@ -164,7 +164,7 @@ const Cart = () => {
           <TopButton>CONTINUE SHOPPING</TopButton>
           <TopTexts>
             <TopText>Shopping Bag(2)</TopText>
-            <TopText>Your Wishlist (0)</TopText>
+            {/* <TopText>Your Wishlist (0)</TopText> */}
           </TopTexts>
           <TopButton type="filled">CHECKOUT NOW</TopButton>
         </Top>
@@ -180,7 +180,7 @@ const Cart = () => {
                   <ProductId>
                     <b>ID:</b> 93813718293
                   </ProductId>
-                  <ProductColor color="black" />
+                  {/* <ProductColor color="black" /> */}
                   <ProductSize>
                     <b>Size:</b> 37.5
                   </ProductSize>
@@ -188,9 +188,9 @@ const Cart = () => {
               </ProductDetail>
               <PriceDetail>
                 <ProductAmountContainer>
-                  <Add />
-                  <ProductAmount>2</ProductAmount>
                   <Remove />
+                  <ProductAmount>2</ProductAmount>
+                  <Add />
                 </ProductAmountContainer>
                 <ProductPrice>$ 30</ProductPrice>
               </PriceDetail>
@@ -206,7 +206,7 @@ const Cart = () => {
                   <ProductId>
                     <b>ID:</b> 93813718293
                   </ProductId>
-                  <ProductColor color="gray" />
+                  {/* <ProductColor color="gray" /> */}
                   <ProductSize>
                     <b>Size:</b> M
                   </ProductSize>
@@ -214,9 +214,9 @@ const Cart = () => {
               </ProductDetail>
               <PriceDetail>
                 <ProductAmountContainer>
-                  <Add />
-                  <ProductAmount>1</ProductAmount>
                   <Remove />
+                  <ProductAmount>1</ProductAmount>
+                  <Add />
                 </ProductAmountContainer>
                 <ProductPrice>$ 20</ProductPrice>
               </PriceDetail>
